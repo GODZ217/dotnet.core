@@ -2,7 +2,7 @@ node('maven') {
 	def appName="test-netcore"
 	def projectName="service-non-pnbp"
     
-	def gitBranch="non-pnbp"
+	def gitBranch="main"
 
     stage('Clone') {
             sh "git config --global http.sslVerify false"
